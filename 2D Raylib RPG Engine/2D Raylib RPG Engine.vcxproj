@@ -124,6 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2D Raylib RPG Engine.cpp" />
+    <ClCompile Include="Locations.cpp" />
+    <ClCompile Include="LocationsManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Locations.h" />
+    <ClInclude Include="LocationsManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
